@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Arham Ali — Full-Stack Developer</title>
+<meta name="description" content="Muhammad Arham Ali, full-stack developer building web and mobile products with Laravel and Flutter.">
+<meta name="theme-color" content="#08080a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="glow" id="glow"></div>
+<div class="grid-bg"></div>
+<div class="noise"></div>
+<div class="code-bg" id="codeBg" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="#top" class="logo">AA<span>.</span></a>
+  <nav>
+    <a href="#about" data-n="about">About</a>
+    <a href="#skills" data-n="skills">Stack</a>
+    <a href="#work" data-n="work">Work</a>
+    <a href="#journey" data-n="journey">Journey</a>
+    <a href="#contact" data-n="contact" class="pill">Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="mm-link">About</a>
+  <a href="#skills" class="mm-link">Stack</a>
+  <a href="#work" class="mm-link">Work</a>
+  <a href="#journey" class="mm-link">Journey</a>
+  <a href="#contact" class="mm-link">Contact</a>
+</div>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow reveal"><i class="dot"></i> Available for projects &middot; <span id="clock">--:--</span> PKT</p>
+    <h1 class="reveal">
+      <span class="scramble" data-text="Muhammad">Muhammad</span><br>
+      <span class="scramble outline" data-text="Arham Ali">Arham Ali</span>
+    </h1>
+    <p class="role reveal">
+      <span class="mono">&gt;_</span>&nbsp;
+      <span class="rotator" id="rotator">web applications</span><span class="caret"></span>
+    </p>
+    <p class="lead reveal">
+      I design and build complete products from database schema to the pixels on your screen.
+      Computer science student at COMSATS University Islamabad, Wah Campus.
+    </p>
+    <div class="cta reveal">
+      <a href="#work" class="btn primary">View work <b>&rarr;</b></a>
+      <a href="mailto:arhamali2048@gmail.com" class="btn ghost">Get in touch</a>
+    </div>
+    <div class="scroll-hint reveal"><span></span>Scroll</div>
+    <div class="badge badge-1 reveal-float">Laravel</div>
+    <div class="badge badge-2 reveal-float">Flutter</div>
+    <div class="badge badge-3 reveal-float">Python</div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>Laravel</span><b>&bull;</b>
+      <span>Flutter</span><b>&bull;</b>
+      <span class="accent">Python</span><b>&bull;</b>
+      <span>C++</span><b>&bull;</b>
+      <span>Java</span><b>&bull;</b>
+      <span class="accent">MySQL</span><b>&bull;</b>
+      <span>MongoDB</span><b>&bull;</b>
+      <span>Git</span><b>&bull;</b>
+      <span class="accent">REST APIs</span><b>&bull;</b>
+      <span>Firebase</span><b>&bull;</b>
+      <span>OOP</span><b>&bull;</b>
+      <span>Laravel</span><b>&bull;</b>
+      <span>Flutter</span><b>&bull;</b>
+      <span class="accent">Python</span><b>&bull;</b>
+      <span>C++</span><b>&bull;</b>
+      <span>Java</span><b>&bull;</b>
+      <span class="accent">MySQL</span><b>&bull;</b>
+      <span>MongoDB</span><b>&bull;</b>
+      <span>Git</span><b>&bull;</b>
+      <span class="accent">REST APIs</span><b>&bull;</b>
+      <span>Firebase</span><b>&bull;</b>
+      <span>OOP</span><b>&bull;</b>
+    </div>
+  </div>
+
+  <section id="about" class="sec">
+    <div class="sec-head reveal">
+      <span class="idx mono">01</span>
+      <h2>About</h2>
+      <div class="line"></div>
+    </div>
+    <div class="about">
+      <p class="big reveal">
+        I am a third-year CS student who treats software as a craft.
+        Every line of code is deliberate, every interface is intentional.
+      </p>
+      <div class="about-side">
+        <p class="reveal">
+          I work across the full stack: Laravel and MySQL on the server,
+          Flutter on mobile, and a strong OOP foundation in C++ and Java
+          that keeps my architecture clean as complexity grows. I am curious
+          by nature, obsessive about details, and driven by building things
+          that solve real problems.
+        </p>
+        <ul class="facts mono reveal">
+          <li><em>Based in</em><span>Wah Cantt, Pakistan</span></li>
+          <li><em>Studying</em><span>BS Computer Science, Year 3</span></li>
+          <li><em>University</em><span>COMSATS, Wah Campus</span></li>
+          <li><em>Focus</em><span>Web and mobile products</span></li>
+          <li><em>Status</em><span class="green-text">Open to work</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="sec">
+    <div class="sec-head reveal">
+      <span class="idx mono">02</span>
+      <h2>Stack</h2>
+      <div class="line"></div>
+    </div>
+    <div class="cards">
+      <article class="card tilt reveal" style="--d:.05s">
+        <div class="card-icon">&#9881;&#65039;</div>
+        <h3>Backend</h3>
+        <p class="mono tag">server &middot; data</p>
+        <ul>
+          <li>Laravel / PHP</li>
+          <li>Python</li>
+          <li>REST APIs</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </article>
+      <article class="card tilt reveal" style="--d:.12s">
+        <div class="card-icon">&#128241;</div>
+        <h3>Mobile</h3>
+        <p class="mono tag">cross-platform</p>
+        <ul>
+          <li>Flutter</li>
+          <li>Dart</li>
+          <li>Firebase</li>
+          <li>State management</li>
+        </ul>
+      </article>
+      <article class="card tilt reveal" style="--d:.19s">
+        <div class="card-icon">&#129504;</div>
+        <h3>Core CS</h3>
+        <p class="mono tag">foundations</p>
+        <ul>
+          <li>C++</li>
+          <li>Java</li>
+          <li>OOP</li>
+          <li>Data structures</li>
+          <li>Algorithms</li>
+        </ul>
+      </article>
+      <article class="card tilt reveal" style="--d:.26s">
+        <div class="card-icon">&#128296;</div>
+        <h3>Tooling</h3>
+        <p class="mono tag">workflow</p>
+        <ul>
+          <li>Git and GitHub</li>
+          <li>Postman</li>
+          <li>HTML / CSS / JS</li>
+          <li>Linux basics</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="meters">
+      <div class="meter-row reveal" data-val="90">
+        <span class="mono m-label">Laravel</span>
+        <div class="bar"><div class="fill"></div></div>
+        <span class="pct mono">Expert</span>
+      </div>
+      <div class="meter-row reveal" data-val="88">
+        <span class="mono m-label">Flutter</span>
+        <div class="bar"><div class="fill"></div></div>
+        <span class="pct mono">Expert</span>
+      </div>
+      <div class="meter-row reveal" data-val="80">
+        <span class="mono m-label">Python</span>
+        <div class="bar"><div class="fill"></div></div>
+        <span class="pct mono">Proficient</span>
+      </div>
+      <div class="meter-row reveal" data-val="85">
+        <span class="mono m-label">C++ / Java</span>
+        <div class="bar"><div class="fill"></div></div>
+        <span class="pct mono">Proficient</span>
+      </div>
+      <div class="meter-row reveal" data-val="82">
+        <span class="mono m-label">MySQL / MongoDB</span>
+        <div class="bar"><div class="fill"></div></div>
+        <span class="pct mono">Proficient</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="sec">
+    <div class="sec-head reveal">
+      <span class="idx mono">03</span>
+      <h2>Selected work</h2>
+      <div class="line"></div>
+    </div>
+    <p class="sec-sub reveal">Projects will be added here soon. Check back shortly.</p>
+    <div class="work">
+      <article class="project reveal" style="--d:.04s">
+        <span class="num mono">01</span>
+        <div class="proj-body">
+          <h3>Coming soon</h3>
+          <p>Case study with problem, approach, stack and results.</p>
+          <div class="proj-tags"><span>Laravel</span><span>MySQL</span></div>
+        </div>
+        <span class="arrow">&nearr;</span>
+      </article>
+      <article class="project reveal" style="--d:.10s">
+        <span class="num mono">02</span>
+        <div class="proj-body">
+          <h3>Coming soon</h3>
+          <p>Case study with problem, approach, stack and results.</p>
+          <div class="proj-tags"><span>Flutter</span><span>Firebase</span></div>
+        </div>
+        <span class="arrow">&nearr;</span>
+      </article>
+      <article class="project reveal" style="--d:.16s">
+        <span class="num mono">03</span>
+        <div class="proj-body">
+          <h3>Coming soon</h3>
+          <p>Case study with problem, approach, stack and results.</p>
+          <div class="proj-tags"><span>Python</span><span>MongoDB</span></div>
+        </div>
+        <span class="arrow">&nearr;</span>
+      </article>
+    </div>
+  </section>
+
+  <section id="journey" class="sec">
+    <div class="sec-head reveal">
+      <span class="idx mono">04</span>
+      <h2>Journey</h2>
+      <div class="line"></div>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <div class="t-left"><span class="mono when">2022 &ndash; Now</span></div>
+        <div class="t-right">
+          <h3>BS Computer Science</h3>
+          <p>COMSATS University Islamabad, Wah Campus. Third year student
+          building a deep foundation in software engineering, algorithms
+          and system design.</p>
+        </div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-left"><span class="mono when">2023</span></div>
+        <div class="t-right">
+          <h3>Full-stack development</h3>
+          <p>Began building real-world web and mobile products combining
+          Laravel back-ends with Flutter front-ends, from schema design
+          to deployment.</p>
+        </div>
+      </div>
+      <div class="t-item upcoming reveal">
+        <div class="t-left"><span class="mono when">Soon</span></div>
+        <div class="t-right">
+          <h3>Experience and certifications</h3>
+          <p>Internships, freelance projects and professional certifications
+          will be added here soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="sec contact">
+    <div class="sec-head reveal">
+      <span class="idx mono">05</span>
+      <h2>Contact</h2>
+      <div class="line"></div>
+    </div>
+    <p class="huge reveal">Have something<br><em>worth building?</em></p>
+    <p class="contact-sub reveal">I am always open to new projects, collaboration and interesting ideas.</p>
+    <div class="links reveal">
+      <a href="mailto:arhamali2048@gmail.com" class="link" id="link-email">
+        <span class="mono lbl">Email</span>
+        <span class="lval">arhamali2048@gmail.com</span>
+        <b>&nearr;</b>
+      </a>
+      <a href="tel:+923495614107" class="link" id="link-phone">
+        <span class="mono lbl">Phone</span>
+        <span class="lval">+92 349 5614107</span>
+        <b>&nearr;</b>
+      </a>
+      <a href="https://wa.me/923495614107" target="_blank" rel="noopener" class="link" id="link-wa">
+        <span class="mono lbl">WhatsApp</span>
+        <span class="lval">Message me directly</span>
+        <b>&nearr;</b>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span class="mono">&copy; <span id="year"></span> Muhammad Arham Ali</span>
+  <span class="mono foot-mid">Built with craft, not just code.</span>
+  <a href="#top" class="mono foot-top">Back to top &uarr;</a>
+</footer>
+
+<script src="codebg.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
